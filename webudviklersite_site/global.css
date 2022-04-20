@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cedarville+Cursive&family=Comforter&family=Inter:wght@100;400&family=Nunito+Sans&family=Oswald:wght@300&family=Roboto:wght@100&family=Source+Serif+4:ital,wght@0,400;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Cedarville+Cursive&family=Comforter&family=Inter:wght@100;400&family=Nunito+Sans&family=Oswald:wght@300&family=Roboto:wght@100&family=Source+Serif+4:ital,wght@0,400;1,200;1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #03738C;
+}
+
+nav {
+    background-color: #004858;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+    color: #f2f2f0;
+    font-size: 2em;
+    max-width: 1280px;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+.menu li {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.menu li:last-child {
+    margin-right: 33px;
+    text-align: right;
+}
+
+.menu li:nth-child(3) {
+    text-align: center;
+}
+
+.menu_logo {
+    max-width: 184px;
+    margin-right: 33px;
+}
+
+.active:hover {
+    color: #D59A5B;
+}
+
+footer {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #D59A5B;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1em;
+}
+
+footer p {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer__info1,
+.footer__info2 {
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding-left: 2em;
+}
+
+.footer__info3 {
+    list-style-type: none;
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 2.5em;
+    color: black;
+    padding-top: 0.7em;
+}
+
+footer a:visited {
+    color: black;
+}
