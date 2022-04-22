@@ -18,7 +18,7 @@ p {
 .wrapper {
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #004858;
+    background-color: #03738C;
 }
 
 main {
@@ -28,6 +28,17 @@ main {
 
 body {
     background-color: #03738C;
+    box-shadow: inset 0px 0px 2000px 2000px #03738C70;
+}
+
+.backgroundvideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 nav {
