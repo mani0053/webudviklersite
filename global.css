@@ -34,7 +34,7 @@ nav {
     height: 100px;
 }
 
-.menu {
+.topmenu {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,39 +47,34 @@ nav {
     list-style-type: none;
 }
 
-.menu li a {
+.topmenu li a {
     text-decoration: none;
     color: #F2F2F0;
     flex-grow: 1;
     cursor: pointer;
 }
 
-.menu li:last-child {
+.topmenu li:last-child {
     margin-right: 33px;
     text-align: right;
 }
 
-.menu li:nth-child(3) {
+.topmenu li:nth-child(3) {
     text-align: center;
 }
 
-.menu_logo {
+.topmenu__logo {
     max-width: 184px;
     max-height: 100px;
 }
 
-.menu li a:hover {
+.topmenu li a:hover {
     color: #D59A5B;
     transition: 0.3s;
 }
 
-.menu .active a {
+.topmenu .active a {
     color: #D59A5B;
-}
-
-#heroVideo {
-    margin: 0 auto;
-    width: 100%;
 }
 
 
@@ -92,7 +87,7 @@ main p {
     color: white;
 }
 
-.intro {
+#intro {
     font-size: 24px;
     font-weight: normal;
     font-family: 'Nunito Sans', sans-serif;
