@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 img {
@@ -16,6 +17,11 @@ p {
 
 .wrapper {
     max-width: 1280px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -41,7 +47,9 @@ nav {
     list-style-type: none;
 }
 
-.menu li {
+.menu li a {
+    text-decoration: none;
+    color: #F2F2F0;
     flex-grow: 1;
     cursor: pointer;
 }
@@ -57,19 +65,117 @@ nav {
 
 .menu_logo {
     max-width: 184px;
-    margin-right: 33px;
+    max-height: 100px;
 }
 
-.active:hover {
+.menu li a:hover {
+    color: #D59A5B;
+    transition: 0.3s;
+}
+
+.menu .active a {
     color: #D59A5B;
 }
 
-footer {
-    font-family: 'Bebas Neue', cursive;
-    background-color: #D59A5B;
+#heroVideo {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* MAIN */
+
+main p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: white;
+}
+
+.intro {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    margin: 3em 0;
+    text-align: center;
+}
+
+.brown {
+    color: #D59A5B;
+    font-weight: bold;
+}
+
+.modcon {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 1em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-bottom: 7em;
+}
+
+.mod1r h4 {
+    margin-top: 4.5em;
+    font-size: 18px;
+    margin-bottom: 0.5em;
+}
+
+.mod1l h4 {
+    font-size: 18px;
+    margin-bottom: 0.5em;
+}
+
+
+/* Slideshow container */
+
+#slideshow-container {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+
+/* Fading animation */
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    11.11% {
+        opacity: 1;
+    }
+    33.33% {
+        opacity: 1;
+    }
+    44.44% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.mySlides {
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    background-color: #D59A5B;
+    display: flex;
+    justify-content: space-evenly;
+    height: 138px;
+    align-items: center;
 }
 
 footer p {
@@ -80,18 +186,21 @@ footer p {
 .footer__info2 {
     font-size: 16px;
     letter-spacing: 4px;
-    padding-left: 2em;
 }
 
 .footer__info3 {
-    list-style-type: none;
-    text-align: center;
-    letter-spacing: 20px;
-    font-size: 2.5em;
-    color: black;
-    padding-top: 0.7em;
+    font-size: 3em;
+    display: flex;
+    list-style: none;
 }
 
-footer a:visited {
+.footer__info3 li a {
+    text-decoration: none;
     color: black;
+    margin-left: 1em;
+}
+
+.footer__info3 li a i:hover {
+    color: #004858;
+    transition: 0.3s;
 }
