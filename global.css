@@ -18,6 +18,7 @@ p {
 .wrapper {
     max-width: 1280px;
     margin: 0 auto;
+    background-color: #004858;
 }
 
 main {
@@ -88,18 +89,9 @@ nav {
 main p {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
-    line-height: 1.6em;
-    color: white;
-}
-
-#intro {
-    font-size: 24px;
-    font-weight: normal;
-    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.8em;
     color: white;
     letter-spacing: 3px;
-    margin: 3em 0;
-    text-align: center;
 }
 
 .brown {
@@ -107,67 +99,13 @@ main p {
     font-weight: bold;
 }
 
-.modcon {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
-    margin-bottom: 7em;
-}
-
-.mod1r h4 {
-    margin-top: 4.5em;
-    font-size: 18px;
+h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
     margin-bottom: 0.5em;
-}
-
-.mod1l h4 {
-    font-size: 18px;
-    margin-bottom: 0.5em;
-}
-
-
-/* Slideshow container */
-
-#slideshow-container {
-    margin: 0 auto;
-    width: 100%;
-    list-style: none;
-}
-
-.mySlides {
-    display: none;
-    width: 100%;
-}
-
-
-/* Fading animation */
-
-@keyframes fade {
-    0% {
-        opacity: 0;
-    }
-    11.11% {
-        opacity: 1;
-    }
-    33.33% {
-        opacity: 1;
-    }
-    44.44% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-.mySlides {
-    opacity: 0;
-    animation-name: fade;
-    animation-duration: 25s;
-    animation-iteration-count: infinite;
-    position: relative;
-    left: 0;
-    right: 0;
+    letter-spacing: 4px;
 }
 
 

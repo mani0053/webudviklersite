@@ -1,4 +1,71 @@
-#heroVideo {
+#intro {
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 3px;
+    margin: 3em auto 5em auto;
+    text-align: center;
+}
+
+.modcon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-bottom: 7em;
+}
+
+.modcon__content p {
+    margin-bottom: 2.6em;
+}
+
+.modcon__assign .modcon__image {
+    margin-bottom: 16em;
+}
+
+
+/* Slideshow container */
+
+#slideshow-container {
     margin: 0 auto;
     width: 100%;
+    list-style: none;
+    margin-bottom: 7em;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 50px;
+}
+
+
+/* Fading animation */
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    11.11% {
+        opacity: 1;
+    }
+    33.33% {
+        opacity: 1;
+    }
+    44.44% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.mySlides {
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 0;
+    right: 0;
 }
