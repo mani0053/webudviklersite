@@ -1,2 +1,0 @@
-# Webudvikler
-Projekt webudviklersite
