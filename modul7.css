@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color:#03738C;
+    color: #F2F2F0;
+}
+/* start map and text */
+.infos p {
+    font-size: 1em;
+    text-align: center;
+    font-size: 1.8em;
+    letter-spacing: 5px;
+}
+.info1{
+    margin: 1.5em;
+}
+.info2{
+    margin: 1.5em;
+}
+.google-map{
+    text-align: center;
+}
+/* end map and text */
+
+/* start footer */
+footer {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #D59A5B;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1em;
+}
+
+/* footer p {
+    font-family: 'Bebas Neue', cursive;
+} */
+
+.footer__info1,
+.footer__info2 {
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding-left: 2em;
+}
+
+.footer__info3 {
+    list-style-type: none;
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 2.5em;
+    color: black;
+    padding-top: 0.7em;
+}
+
+footer a:visited {
+    color: black;
+}
+
+/* end footer */
