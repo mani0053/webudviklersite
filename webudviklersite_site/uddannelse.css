@@ -22,20 +22,25 @@ p {
     font-size: 18px;
 }
 
-.Modul4 {
+.modul4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 46px;
     padding-bottom: 73px;
 }
 
-li {
+.modul4__liste {
+    list-style-position: outside;
+    padding-left: 1em;
+}
+
+.modul4__liste li {
     font-size: 18px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
-.Modul5 article {
+.modul5 article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 46px;
@@ -47,7 +52,7 @@ li {
     padding-top: 60px;
 }
 
-.Modul6 {
+.modul6 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 46px;
@@ -55,11 +60,11 @@ li {
     padding-bottom: 60px;
 }
 
-.Modul6 p {
+.modul6 p {
     padding-bottom: 30px;
 }
 
-.Modul6 a {
+.modul6 a {
     font-size: 18px;
     color: #ffffff;
 }
